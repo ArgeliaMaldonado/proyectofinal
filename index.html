@@ -69,6 +69,13 @@ body {
   padding: 20px;
 }
 
+.card img, .rightcolumn img {
+  max-width: 100%; /* Ajusta al ancho del contenedor */
+  height: auto;    /* Mantiene la proporción */
+  display: block;  /* Centra las imágenes si son más pequeñas que el contenedor */
+  margin: 0 auto;  /* Centra la imagen horizontalmente */
+}
+
 /* Add a card effect for articles */
 .card {
   background-color: white;
@@ -180,12 +187,14 @@ navigation links stack on top of each other instead of next to each other */
     <div class="rightcolumn">
       <div class="card">
         <h2>Sobre nosotros</h2>
-        <img src="img/logo.jpg" style="width:300px; height:300px;">
+        <img src="img/logo.jpg" style="width:250px; height:250px;">
         <p>Somos una papelería creativa que ofrece una amplia variedad de productos de alta calidad para inspirar tu imaginación y ayudarte a materializar tus proyectos.</p>
       </div>
       <div class="card">
         <h3>Ubicación</h3>
-        <img src="img/ubicacion.jpeg" style="width:300px; height:300px;">
+        <a href="https://www.google.com/maps/place/UV+Facultad+de+Administracion/@19.1694991,-96.1446749,17z/data=!3m1!4b1!4m6!3m5!1s0x85c3415003457d47:0x28a3a81ccad6d19d!8m2!3d19.1694941!4d-96.1421!16s%2Fg%2F1vp6_hvl?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D">
+        <img src="img/ubicacion.jpeg" style="width:250px; height:250px;">
+    </a>
       </div>
       <div class="card">
         <h3>¡Siguenos en redes!</h3>
